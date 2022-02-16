@@ -25,19 +25,11 @@ void Matrix::printMatrix() {
  */
 void Matrix::sortMatrix() {
     for (int i = 0; i < amount_of_strings; ++i) {
-        for (int j = 0; j < amount_of_columns; ++j) {
-            for (int k = 0; k < amount_of_columns - j - 1; ++k) {
-                if (*(*(matrix + i) + k) > *(*(matrix + i) + k + 1) && i % 2) {
-                    int tmp = *(*(matrix + i) + k);
-                    *(*(matrix + i) + k) = *(*(matrix + i) + k + 1);
-                    *(*(matrix + i) + k + 1) = tmp;
-                }
-                if (*(*(matrix + i) + k) < *(*(matrix + i) + k + 1) && !(i % 2)) {
-                    int tmp = *(*(matrix + i) + k);
-                    *(*(matrix + i) + k) = *(*(matrix + i) + k + 1);
-                    *(*(matrix + i) + k + 1) = tmp;
-                }
-            }
+        if (i % 2) {
+            std::sort(*(matrix + i), *(matrix + i) + amount_of_columns);
+        }else{
+            std::sort(*(matrix + i), *(matrix + i) + amount_of_columns);
+            std::reverse(*(matrix + i), *(matrix + i) + amount_of_columns);
         }
     }
 }
@@ -56,7 +48,7 @@ int Matrix::findMaxSum() {
         sums[i] = sum;
     }
     for (i = 0; i < amount_of_strings; ++i) {
-        if(sums[i] > maxSum) maxSum = sums[i];
+        if (sums[i] > maxSum) maxSum = sums[i];
     }
     return maxSum;
 }

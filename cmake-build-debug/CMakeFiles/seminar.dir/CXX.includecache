@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/Matrix.cpp
+C:/Users/sbpk/CLionProjects/seminar/Matrix.cpp
+Matrix.h
+C:/Users/sbpk/CLionProjects/seminar/Matrix.h
+
+C:/Users/sbpk/CLionProjects/seminar/Matrix.h
 iostream
 -
 ctime
@@ -15,8 +19,12 @@ cstdlib
 -
 iomanip
 -
-Matrix.h
-C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/Matrix.h
+conio.h
+-
+algorithm
+-
 
-C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/Matrix.h
+C:/Users/sbpk/CLionProjects/seminar/main.cpp
+Matrix.h
+C:/Users/sbpk/CLionProjects/seminar/Matrix.h
 

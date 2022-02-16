@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <iomanip>
 #include <conio.h>
+#include <algorithm>
 
 #ifndef SEMINAR_MATRIX_H
 #define SEMINAR_MATRIX_H

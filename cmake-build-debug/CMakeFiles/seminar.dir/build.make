@@ -79,17 +79,17 @@ CMakeFiles/seminar.dir/main.cpp.s: cmake_force
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sbpk\CLionProjects\seminar\main.cpp -o CMakeFiles\seminar.dir\main.cpp.s
 
 CMakeFiles/seminar.dir/Matrix.cpp.obj: CMakeFiles/seminar.dir/flags.make
-CMakeFiles/seminar.dir/Matrix.cpp.obj: Matrix.cpp
+CMakeFiles/seminar.dir/Matrix.cpp.obj: ../Matrix.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sbpk\CLionProjects\seminar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/seminar.dir/Matrix.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\seminar.dir\Matrix.cpp.obj -c C:\Users\sbpk\CLionProjects\seminar\cmake-build-debug\Matrix.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\seminar.dir\Matrix.cpp.obj -c C:\Users\sbpk\CLionProjects\seminar\Matrix.cpp
 
 CMakeFiles/seminar.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/seminar.dir/Matrix.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sbpk\CLionProjects\seminar\cmake-build-debug\Matrix.cpp > CMakeFiles\seminar.dir\Matrix.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sbpk\CLionProjects\seminar\Matrix.cpp > CMakeFiles\seminar.dir\Matrix.cpp.i
 
 CMakeFiles/seminar.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/seminar.dir/Matrix.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sbpk\CLionProjects\seminar\cmake-build-debug\Matrix.cpp -o CMakeFiles\seminar.dir\Matrix.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sbpk\CLionProjects\seminar\Matrix.cpp -o CMakeFiles\seminar.dir\Matrix.cpp.s
 
 # Object files for target seminar
 seminar_OBJECTS = \
