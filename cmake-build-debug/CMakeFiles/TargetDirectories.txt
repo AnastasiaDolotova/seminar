@@ -1,0 +1,3 @@
+C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/CMakeFiles/seminar.dir
+C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/CMakeFiles/rebuild_cache.dir

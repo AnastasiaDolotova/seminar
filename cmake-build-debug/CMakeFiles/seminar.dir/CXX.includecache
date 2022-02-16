@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/Matrix.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+iomanip
+-
+Matrix.h
+C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/Matrix.h
+
+C:/Users/sbpk/CLionProjects/seminar/cmake-build-debug/Matrix.h
+
