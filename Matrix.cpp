@@ -1,7 +1,3 @@
-#include <iostream>
-#include <ctime>
-#include <cstdlib>
-#include <iomanip>
 #include "Matrix.h"
 
 void Matrix::createMatrix() {

@@ -1,3 +1,9 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+#include <iomanip>
+#include <conio.h>
+
 #ifndef SEMINAR_MATRIX_H
 #define SEMINAR_MATRIX_H
 
