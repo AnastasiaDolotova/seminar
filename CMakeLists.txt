@@ -3,4 +3,4 @@ project(seminar)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(seminar main.cpp cmake-build-debug/Matrix.cpp cmake-build-debug/Matrix.h)
+add_executable(seminar main.cpp Matrix.cpp Matrix.h)

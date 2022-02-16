@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-#include "cmake-build-debug/Matrix.h"
+#include "Matrix.h"
 
 int main() {
     std::cout << "Input sizes of matrix:" << std::endl;
