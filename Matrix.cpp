@@ -1,6 +1,3 @@
-//
-// Created by Kurrrrraga on 16.02.2022.
-//
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -26,6 +23,10 @@ void Matrix::printMatrix() {
     }
 }
 
+/**
+ * Even strings are sorted in ascending order
+ * Odd strings - in descending order
+ */
 void Matrix::sortMatrix() {
     for (int i = 0; i < amount_of_strings; ++i) {
         for (int j = 0; j < amount_of_columns; ++j) {
@@ -45,6 +46,10 @@ void Matrix::sortMatrix() {
     }
 }
 
+/**
+ *
+ * @return max sum of elements in strings
+ */
 int Matrix::findMaxSum() {
     int maxSum = 0, i, sums[amount_of_strings];
     for (i = 0; i < amount_of_strings; ++i) {

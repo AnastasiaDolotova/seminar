@@ -1,7 +1,3 @@
-//
-// Created by Kurrrrraga on 16.02.2022.
-//
-
 #ifndef SEMINAR_MATRIX_H
 #define SEMINAR_MATRIX_H
 
