@@ -13,10 +13,10 @@ int main() {
     std::cout << "___________________" << std::endl;
     std::cout << "Sorted matrix:" << std::endl;
     matrix.printMatrix();
-//    std::cout << "___________________" << std::endl;
-//    matrix.deleteStrings();
-//    std::cout << "Matrix without strings with max sum of elements:" << std::endl;
-//    matrix.printMatrix();
+    std::cout << "___________________" << std::endl;
+    matrix.deleteStrings();
+    std::cout << "Matrix without strings with max sum of elements:" << std::endl;
+    matrix.printMatrix();
     getch();
     return 0;
 }
