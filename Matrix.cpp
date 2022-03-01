@@ -63,7 +63,7 @@ void Matrix::deleteStrings() {
         }
         if (sum == maxSum) {
             for (int j = i; j < amount_of_strings - 1; ++j) {
-                for (int k = 0; k < amount_of_columns; ++k){
+                for (int k = 0; k < amount_of_columns; ++k) {
                     *(*(matrix + j) + k) = *(*(matrix + j + 1) + k);
                 }
             }

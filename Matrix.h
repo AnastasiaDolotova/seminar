@@ -15,13 +15,15 @@ private:
     int amount_of_columns;
 
     int findMaxSum();
+
 public:
-    Matrix(int n, int m) : amount_of_strings(n), amount_of_columns(m){
-        matrix = new int*[n];
+    Matrix(int n, int m) : amount_of_strings(n), amount_of_columns(m) {
+        matrix = new int *[n];
     }
 
-    Matrix(const Matrix &object) : amount_of_strings(object.amount_of_strings), amount_of_columns(object.amount_of_columns){
-        matrix = new int*[amount_of_strings];
+    Matrix(const Matrix &object) : amount_of_strings(object.amount_of_strings),
+                                   amount_of_columns(object.amount_of_columns) {
+        matrix = new int *[amount_of_strings];
         for (int i = 0; i < amount_of_strings; ++i) {
             *(matrix + i) = new int[amount_of_columns];
             for (int j = 0; j < amount_of_columns; ++j) {
@@ -38,7 +40,7 @@ public:
 
     void deleteStrings();
 
-    ~Matrix(){
+    ~Matrix() {
         for (int i = 0; i < amount_of_strings; ++i) {
             delete[] *(matrix + i);
         }
